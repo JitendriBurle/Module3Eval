@@ -22,7 +22,7 @@ const AdminDashboard = () => {
     }, []);
 
     const handleAdd = () => {
-        if(Object.values(form).some((v) => === "")) {
+        if(Object.values(form).some((v) => v === "")) {
             alert("Fill all fields");
             return;
         }
