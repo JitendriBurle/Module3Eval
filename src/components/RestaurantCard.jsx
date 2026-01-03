@@ -1,7 +1,7 @@
-import { userNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const RestaurantCard = ({ data, isAdmin, handleDelete }) => {
-  const navigate = userNavigate();
+  const navigate = useNavigate();
 
   return (
     <div style={{ border: "1px solid gray", padding: "20px" }}>

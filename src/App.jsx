@@ -1,9 +1,9 @@
 import { Routes, Route } from 'react-router-dom';
-import Login from './components/Login';
-import AdminDashboard from './components/AdminDashboard';
-import CustomerDashboard from './components/CustomerDashboard';
+import Login from './pages/Login';
+import AdminDashboard from './pages/AdminDashboard';
+import CustomerDashboard from './pages/CustomerDashboard';
 import ProtectedRoute from './components/ProtectedRoute';
-import UpdateRestaurant from './components/UpdateRestaurant';
+import UpdateRestaurant from './pages/UpdateRestaurant';
 
 function App() {
   return (
