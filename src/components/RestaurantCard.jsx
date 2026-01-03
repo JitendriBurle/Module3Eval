@@ -20,3 +20,5 @@ const RestaurantCard = ({ data, isAdmin, handleDelete }) => {
         </div>
      );
 };
+
+export default RestaurantCard;
